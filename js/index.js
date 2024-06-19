@@ -77,7 +77,7 @@ $(document).ready(function () {
     e.preventDefault(); // Prevent the default action (navigation)
 
     // Toggle visibility of English and Spanish content
-    $("#packages-heading-en, #packages-text-en").toggle();
-    $("#packages-heading-es, #packages-text-es").toggle();
+    $("#packages-heading-en, #text-en").toggle();
+    $("#packages-heading-es, #text-es").toggle();
   });
 });

@@ -45,12 +45,19 @@
             class="collapse navbar-collapse justify-content-end"
             id="navbar-wd"
           >
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" id="text-en">
               <li><a class="nav-link active" href="#home">Home</a></li>
               <li><a class="nav-link" href="#packages">Packages</a></li>
               <li><a class="nav-link" href="#gallery">Gallery</a></li>
               <li><a class="nav-link" href="#contact">Contact</a></li>
-              <li><a class="nav-link" href="#home">Spanish</a></li>
+              <li><a class="nav-link switch-language" href="">Spanish</a></li>
+            </ul>
+            <ul class="navbar-nav" id="text-es" style="display: none">
+              <li><a class="nav-link active" href="#home">Inicio</a></li>
+              <li><a class="nav-link" href="#packages">Paquetes</a></li>
+              <li><a class="nav-link" href="#gallery">Galería</a></li>
+              <li><a class="nav-link" href="#contact">Contacto</a></li>
+              <li><a class="nav-link switch-language" href="">Ingles</a></li>
             </ul>
           </div>
         </div>
@@ -68,8 +75,21 @@
             <div class="lbox-caption">
               <div class="lbox-details">
                 <h1>Fiesta Latina AZ</h1>
-                <p class="topText">Event Facility For All Occasions</p>
-                <a href="#contact" class="btn">Contact</a>
+                <p class="topText" id="text-en">
+                  Event Facility For All Occasions
+                </p>
+                <a href="#contact" class="btn" id="text-en">Contact</a>
+
+                <p class="topText" id="text-es" style="display: none">
+                  Instalaciones para Eventos para Todas las Ocasiones
+                </p>
+                <a
+                  href="#contact"
+                  class="btn"
+                  id="text-es"
+                  style="display: none"
+                  >Contacto</a
+                >
               </div>
             </div>
           </div>
@@ -84,7 +104,8 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="title-box">
-                <h2>Packages</h2>
+                <h2 id="text-en">Packages</h2>
+                <h2 id="text-es" style="display: none">Paquetes</h2>
               </div>
             </div>
           </div>
@@ -92,11 +113,15 @@
             <div class="col-lg-12 col-md-12 col-sm-12">
               <div class="row align-items-center about-main-info">
                 <div class="col-lg-8 col-md-6 col-sm-12">
-                  <h2>
+                  <h2 id="text-en">
                     Let us help make your special event a memory that will last
                     a lifetime!
                   </h2>
-                  <p class="packagesFont">
+                  <h2 id="text-es" style="display: none">
+                    ¡Déjanos ayudarte a que tu evento especial sea un recuerdo
+                    que perdure toda la vida!
+                  </h2>
+                  <p id="text-en" class="packagesFont">
                     Corporate – Parties – Meetings – Seminars – Weddings, Sweet
                     Sixteen, Quinceaneras and Bachelor Parties. Tables and
                     Chairs Full Bar Facility, Including Bartender. Separate
@@ -104,6 +129,16 @@
                     Available For Rent Full Catering Services (on site and other
                     locations) Decoration Services Great Venue for Concerts
                     Video and Photography available
+                  </p>
+                  <p id="text-es" class="packagesFont" style="display: none">
+                    Corporativo – Fiestas – Reuniones – Seminarios – Bodas,
+                    Sweet Sixteen, Quinceañeras y Despedidas de Soltero. Mesas y
+                    Sillas Instalaciones de Bar Completo, Incluido el Barman.
+                    Corte Separado para Servidores de Comida 350 plazas de
+                    aparcamiento Linos disponibles para alquilar Servicios
+                    completos de catering (en el lugar y en otros lugares)
+                    Servicios de decoración Gran lugar para conciertos Video y
+                    fotografía disponibles
                   </p>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
@@ -132,7 +167,7 @@
                     />
                   </div>
                 </div>
-                <div class="col-lg-8 col-md-6 col-sm-12 mt-3">
+                <div class="col-lg-8 col-md-6 col-sm-12 mt-3" id="text-en">
                   <h2>Rental Package for 300 people</h2>
                   <ul class="packagesFont">
                     <li>&#x2022; 37 Round Tables, 3 Long Tables, and Chairs</li>
@@ -144,7 +179,7 @@
                       &#x2022; Unlimited soda and ice – 300 people only
                       additional charges over 300 people.
                     </li>
-                    <li>&#x2022;Event Hall</li>
+                    <li>&#x2022; Event Hall</li>
                   </ul>
                   <p class="mb-0 mt-2 font-weight-bold packagesFont">
                     Additional Packages:
@@ -169,6 +204,48 @@
                     </li>
                   </ul>
                 </div>
+                <div
+                  class="col-lg-8 col-md-6 col-sm-12 mt-3"
+                  id="text-es"
+                  style="display: none"
+                >
+                  <h2>Paquete de Alquiler para 300 personas</h2>
+                  <ul class="packagesFont">
+                    <li>&#x2022; 37 Mesas Redondas, 3 Mesas Largas y Sillas</li>
+                    <li>
+                      &#x2022; 2 Meseros – de 5pm a 9pm – Sin cambio de horario
+                    </li>
+                    <li>&#x2022; 1 Barman para 300 personas – de 6pm a 1am</li>
+                    <li>
+                      &#x2022; Refrescos y hielo ilimitados – solo para 300
+                      personas, cargos adicionales por más de 300 personas.
+                    </li>
+                    <li>&#x2022; Salón de Eventos</li>
+                  </ul>
+                  <p class="mb-0 mt-2 font-weight-bold packagesFont">
+                    Paquetes Adicionales:
+                  </p>
+                  <ul class="packagesFont">
+                    <li>
+                      &#x2022; Ofrecido: 40 manteles, blancos + cualquier otro
+                      color, fundas de asiento más moños a juego – 300 fundas de
+                      asiento + moños. 3 manteles largos
+                    </li>
+                    <li>
+                      &#x2022; Una hora adicional de música, después de la 1am,
+                      se proporciona a discreción de la administración por un
+                      cargo adicional. Los cargos deben ser pagados por
+                      adelantado y arreglados al momento del pago del alquiler
+                      del salón. El costo será determinado por la
+                      administración.
+                    </li>
+                    <li>
+                      &#x2022; La limpieza del salón de eventos se ofrece por un
+                      cargo adicional, y debe ser arreglada al momento de
+                      reservar el salón.
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -181,8 +258,11 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12">
-            <div class="title-box">
+            <div class="title-box" id="text-en">
               <h2>Gallery</h2>
+            </div>
+            <div class="title-box" id="text-es" style="display: none">
+              <h2>Galería</h2>
             </div>
           </div>
         </div>
@@ -270,10 +350,16 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <div class="title-box">
+            <div class="title-box" id="text-en">
               <h2>Contact us</h2>
               <p class="contactNumber">
                 Call 602-523-0239/623-261-5088 or leave us a message
+              </p>
+            </div>
+            <div class="title-box" id="text-es" style="display: none">
+              <h2>Contáctanos</h2>
+              <p class="contactNumber">
+                Llama al 602-523-0239/623-261-5088 o déjanos un mensaje
               </p>
             </div>
           </div>
@@ -299,7 +385,7 @@
                       class="contact-info d-flex justify-content-between align-items-center py-2 px-lg-5"
                     ></div>
                   </div>
-                  <div class="col-lg-6 col-12">
+                  <div class="col-lg-6 col-12" id="text-en">
                     <h2 class="mb-4">
                       Contact Us for More Information or to Schedule your next
                       Event
@@ -363,6 +449,74 @@
                       <div class="clearfix"></div>
                     </div>
                   </div>
+                  <div
+                    class="col-lg-6 col-12"
+                    id="text-es"
+                    style="display: none"
+                  >
+                    <h2 class="mb-4">
+                      Contáctanos para Más Información o para Programar tu
+                      Próximo Evento
+                    </h2>
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        name="name"
+                        placeholder="Tu Nombre"
+                        required
+                        data-error="Por favor ingresa tu nombre"
+                      />
+                      <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        placeholder="Tu Correo Electrónico"
+                        id="email"
+                        class="form-control"
+                        name="email"
+                        required
+                        data-error="Por favor ingresa tu correo electrónico"
+                      />
+                      <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div class="form-group">
+                      <input
+                        type="tel"
+                        placeholder="Tu Número de Teléfono"
+                        id="phone"
+                        class="form-control"
+                        name="phone"
+                        required
+                        data-error="Por favor ingresa tu número de teléfono"
+                      />
+                      <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div class="form-group">
+                      <textarea
+                        class="form-control"
+                        id="message"
+                        placeholder="Tu Mensaje"
+                        rows="8"
+                        data-error="Escribe tu mensaje"
+                        required
+                      ></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div class="submit-button text-center">
+                      <button class="btn btn-common" id="submit" type="submit">
+                        Enviar Mensaje
+                      </button>
+                      <div id="msgSubmit" class="h3 text-center hidden"></div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>
                 </div>
               </form>
             </div>
@@ -375,7 +529,7 @@
     <footer class="footer-box">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12" id="text-en">
             <p class="footer-company-name">
               All Rights Reserved. &copy; 2024
               <a href="#">Fiesta Latina AZ</a> Design By :
@@ -384,9 +538,47 @@
               >
             </p>
           </div>
+
+          <div class="col-lg-12" id="text-es" style="display: none">
+            <p class="footer-company-name">
+              Todos los Derechos Reservados. &copy; 2024
+              <a href="#">Fiesta Latina AZ</a> Diseño Por:
+              <a target="_blank" href="https://pwojcik2.github.io/"
+                >Patrick Wojcik</a
+              >
+            </p>
+          </div>
         </div>
       </div>
     </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Function to switch language
+        function switchLanguage() {
+          // Toggle visibility of English and Spanish content
+          var enElements = document.querySelectorAll(".en");
+          var esElements = document.querySelectorAll(".es");
+
+          enElements.forEach(function (el) {
+            el.style.display = "block";
+          });
+
+          esElements.forEach(function (el) {
+            el.style.display = "none";
+          });
+        }
+
+        // Event listener for the language switch link
+        var switchLanguageLink = document.querySelector(".switch-language");
+        if (switchLanguageLink) {
+          switchLanguageLink.addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent the link from navigating
+            switchLanguage(); // Call the language switch function
+          });
+        }
+      });
+    </script>
 
     <!-- JS FILES -->
     <script src="js/jquery.min.js"></script>
