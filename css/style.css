@@ -669,6 +669,12 @@ select.form-control:not([size]):not([multiple]) {
 
 .topText {
   font-size: 24px;
+  margin-bottom: 0;
+}
+
+.topTextAdress:hover {
+  text-decoration: underline !important;
+  /* text-decoration-color: white !important; */
 }
 
 .packagesFont {
